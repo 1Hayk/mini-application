@@ -1,0 +1,21 @@
+.container {
+    @apply flex w-screen h-screen bg-stone-200 flex-col items-center justify-center font-sans;
+
+    .title {
+        @apply text-2xl font-bold mb-12
+    }
+
+    ;
+
+    .btn {
+        @apply rounded-md bg-purple-400 my-5 px-5 transition duration-300 ease-in-out;
+
+        &:hover {
+            @apply bg-purple-500
+        }
+    }
+
+    .spanTitle {
+        @apply font-bold
+    }
+}

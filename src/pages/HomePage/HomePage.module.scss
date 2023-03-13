@@ -1,0 +1,7 @@
+.container {
+    @apply flex w-screen h-screen bg-stone-200 flex-col items-center justify-center font-sans
+}
+
+.title {
+    @apply text-2xl font-bold
+}

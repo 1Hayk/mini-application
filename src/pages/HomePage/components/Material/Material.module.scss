@@ -1,0 +1,12 @@
+.selectContainer {
+    @apply min-w-[170px];
+
+    @media screen and (max-width:768px) {
+        min-width: 210px;
+    }
+
+}
+
+.error {
+    @apply text-red-500 py-2
+}
